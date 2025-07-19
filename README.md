@@ -71,7 +71,7 @@ visualize machine-generated data in real time.
 <img width="1090" height="415" alt="image" src="https://github.com/user-attachments/assets/19def4de-1847-48ed-b8b8-e4828834e247" />
  <img width="1090" height="453" alt="image" src="https://github.com/user-attachments/assets/cf7daedd-9fe9-41e8-9b0c-3f8e791f89a1" />
 
-# SNORT SETUP AND CONFIGURATION
+# SNORT SETUP AND CONFIGURATION IN UBUNTU VM
 # STEP 1
 
 In this process we are using ubuntu and installing snort. Before installing snort,
@@ -412,6 +412,233 @@ If you want then you can generate report according to your requirement like this
 These are my Splunk report. 
 
 <img width="1090" height="626" alt="image" src="https://github.com/user-attachments/assets/196532a1-404f-484a-84cb-c2ead5333b6a" />
+
+
+# NESSUS SETUP AND CONFIGURATION IN KALI LINUX
+
+# STEP 1
+
+ In this process we are using Virtual Box and Kali Linux. Make sure both of these are installed in your laptop / pc. Also check the network adapter will be Bridged Adapter. 
+
+ <img width="1122" height="613" alt="image" src="https://github.com/user-attachments/assets/0acd1391-b4dc-46fd-8500-d92a9ad962bf" />
+
+ # STEP 2
+ 
+ You can see Kali Linux is now open properly. 
+
+ <img width="1122" height="620" alt="image" src="https://github.com/user-attachments/assets/d958d167-352c-4545-897c-c8074217ed3a" />
+
+ # STEP 3
+
+ Before the installation there are some things which is necessary like a good network connection, a Gmail ID, where you can get the activation key of your Nessus account. 
+ After open Kali Linux → Go to Mozilla Firefox → Type “Tenable Nessus Download” → Click on the “Downloads” link. 
+
+<img width="1122" height="624" alt="image" src="https://github.com/user-attachments/assets/1b77e523-30d1-4bbf-b46d-37ea077e0c0c" />
+
+# STEP 4
+
+After open you can see this type of page and click on view downloads of the first one
+
+<img width="1122" height="629" alt="image" src="https://github.com/user-attachments/assets/847917f8-8606-47dc-85a2-bcdf680d19bd" />
+
+# STEP 5
+
+Now you need to configure the downloaded software → 1st Platform will be “Linux-Debian-amd64”. You can see my configuration as well. 
+
+<img width="1122" height="596" alt="image" src="https://github.com/user-attachments/assets/cc10c15a-27ab-4878-89eb-456e782e8a0c" />
+
+# STEP 6
+
+ Before Click on Download → Click on “Checksum” → Copy the SHA256 Value → Paste it in your Linux Notepad for future use. 
+
+ <img width="1122" height="597" alt="image" src="https://github.com/user-attachments/assets/dcaf7f5b-b8f1-4e70-9f7a-ee4c6440f3dc" />
+
+ # STEP 7
+
+ Click on Download – download will be start. 
+
+ <img width="1122" height="236" alt="image" src="https://github.com/user-attachments/assets/33775525-52cf-49ef-9fbe-39167b7603a3" />
+
+ # STEP 8
+ 
+ After download this file back to your terminal and check the file is completely downloaded or not. 
+
+ <img width="1122" height="202" alt="image" src="https://github.com/user-attachments/assets/46c63e14-27c6-4380-a609-90decf00bb56" />
+
+ # STEP 9
+
+ After download this file back to your terminal and complete the installation process. Now copy the checksum and the specific file and write it to another file. This file contains the checksum with the file name that we have downloaded. 
+
+ <img width="1122" height="66" alt="image" src="https://github.com/user-attachments/assets/7193b6ea-3900-4109-90b4-1c4fbc9bd2b7" />
+
+ # STEP 10
+
+ To check the integrity of the file that we have downloaded enter this. 
+
+ <img width="1033" height="275" alt="image" src="https://github.com/user-attachments/assets/50f5ee16-c7d2-48c7-964f-7d5caa00d07f" />
+
+ # STEP 11
+
+ Now we install the specific application on Kali Linux we have downloaded the file. 
+
+ <img width="1122" height="286" alt="image" src="https://github.com/user-attachments/assets/68a2cffa-0317-441d-9e97-2c7907e37d67" />
+
+ # STEP 12
+
+ Nessus download is complete.
+
+ <img width="1122" height="165" alt="image" src="https://github.com/user-attachments/assets/735c3dd3-57c5-4d00-99c0-551f1d6f6fbd" />
+
+ # STEP 13
+ 
+ After download open browser and enter “Nessus for education”. There you need to create an account and after creating account you will get an activation key. 
+
+ <img width="1122" height="545" alt="image" src="https://github.com/user-attachments/assets/726b0022-7707-439f-affd-b146e288ed2d" />
+
+ # STEP 14
+ 
+ Before starting check the Nessus service status if disable then you need to start an enable the service.
+
+ <img width="1122" height="492" alt="image" src="https://github.com/user-attachments/assets/a25c4d77-2757-4c79-94fc-00760e1175b4" />
+
+ # STEP 15
+
+ For starting check you’re the internet address of a network interface. 
+
+ <img width="1122" height="256" alt="image" src="https://github.com/user-attachments/assets/c706c798-3781-40c4-aeba-cf51da5cdae6" />
+
+ # STEP 16
+
+ Now go to your browser and write this: https://127.0.0.1:8834 and enter. 
+ After enter you will be redirecting this page.
+
+ <img width="1122" height="435" alt="image" src="https://github.com/user-attachments/assets/dbef7253-2845-42a6-8356-e5b0b52540e7" />
+
+ # STEP 17
+ 
+ Mark Register Offline →Mark Nessus Expert → Click on Continue. 
+ After doing this first copy the challenge code and click on Offline Registration.
+ 
+ <img width="1122" height="439" alt="image" src="https://github.com/user-attachments/assets/f5b054a2-dd0b-4ef7-9e70-618334955b3c" />
+
+ # STEP 18
+ 
+ Now you need to enter the challenge code and the activation code that we have got by mail. After fill it click on Submit and you will get the license key. 
+
+ <img width="1122" height="364" alt="image" src="https://github.com/user-attachments/assets/3388557e-e50d-4de6-89ea-27d38f86d7b2" />
+
+ # STEP 19
+
+ After getting the license key copy it and paste it into setup page. Click on Continue.
+
+ <img width="1122" height="439" alt="image" src="https://github.com/user-attachments/assets/975cff39-bf96-4524-9f27-1d3757daef02" />
+
+ # STEP 20
+
+ Now create username and password. 
+
+ <img width="1122" height="447" alt="image" src="https://github.com/user-attachments/assets/217d3ded-1b3e-4e8d-9fed-28f869e1c14f" />
+
+ # STEP 21
+
+ After initialization you can see this page. Your Installation process has completed. 
+
+ <img width="1122" height="448" alt="image" src="https://github.com/user-attachments/assets/ae130af4-3a93-4080-826f-e4863e8dcfc4" />
+
+ # STEP 22
+
+ For Nessus application we need to be download some plugins. For this → Go to Settings – Software update → all → Save. 
+
+ <img width="1122" height="364" alt="image" src="https://github.com/user-attachments/assets/fb84e842-7eb3-4361-9038-0f79d4433d58" />
+
+ # STEP 23
+ 
+ For manual software update → Go to Settings → Manual Software Update → Update Plugins → Continue. It will take some time. 
+
+ <img width="1122" height="375" alt="image" src="https://github.com/user-attachments/assets/f6498ece-d11f-4711-b4b7-bcca35aefeeb" />
+
+ STEP 24
+
+ For starting the scan → click on New Scan → you see this interface. 
+ Choose one scanning method among these. 
+
+ <img width="1122" height="550" alt="image" src="https://github.com/user-attachments/assets/d9354ae1-f682-48a8-a6c8-671533937923" />
+
+ # STEP 25
+
+ We have used Splunk for log analysing. From there now we scan an IP. 
+ Here we chose the “Basic Network Scan”. 
+
+ <img width="1122" height="536" alt="image" src="https://github.com/user-attachments/assets/0155da6d-60f6-4440-adbf-9312f5579d62" />
+
+ # STEP 26
+ 
+ Click on that → configure all the settings → Click on Save. 
+
+ <img width="1122" height="579" alt="image" src="https://github.com/user-attachments/assets/d28410e4-b5ee-4971-91bf-ea94b8a71672" />
+
+ # STEP 27
+ 
+ Now Launch the scanning process. 
+
+ <img width="1122" height="244" alt="image" src="https://github.com/user-attachments/assets/5e58352b-6c01-4ce9-9b9c-6757fc934564" />
+
+ #STEP 28
+ 
+ After the scan, you will see the result of the scan. 
+
+ <img width="1122" height="597" alt="image" src="https://github.com/user-attachments/assets/1b6dc5bf-f120-4969-822b-92ac04a0869c" />
+
+ # STEP 29
+
+ You can also able to know more about vulnerabilities. Just click on any one of these and you will get result. 
+
+ <img width="1122" height="412" alt="image" src="https://github.com/user-attachments/assets/ca5612b9-3cca-4fd4-925a-46deb2f8aee1" />
+
+ # STEP 30
+
+ You can also generate the report of the scan in a PDF, or CSV format → Click on Report → Enter Generate report.
+
+ <img width="1122" height="582" alt="image" src="https://github.com/user-attachments/assets/3d4123af-37fb-4e43-9d73-5009a723a514" />
+
+ # STEP 31
+
+ You can also see the PDF format in details. 
+
+ <img width="1122" height="599" alt="image" src="https://github.com/user-attachments/assets/2a8f82a8-1535-4488-a60c-62e6de5f57f1" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
