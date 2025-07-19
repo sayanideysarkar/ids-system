@@ -327,6 +327,109 @@ Start the splunk.
 
 Accept the license.
 
+<img width="1090" height="431" alt="image" src="https://github.com/user-attachments/assets/772ceb61-9896-4244-bec0-a13210c12c7d" />
+
+# STEP 32 
+
+The installation is complete. 
+
+<img width="1090" height="494" alt="image" src="https://github.com/user-attachments/assets/48332523-ba3b-4b81-93e1-90e017f0814b" />
+
+# STEP 33
+
+After creating Password → Login to this page.
+
+<img width="1090" height="385" alt="image" src="https://github.com/user-attachments/assets/045c86b6-81e9-44ee-b6b4-3df923f68f89" />
+
+# STEP 34
+
+ For checking the status run this command.
+
+ <img width="1090" height="476" alt="image" src="https://github.com/user-attachments/assets/4a20a5a3-043d-4aee-a1f2-61858aa68127" />
+
+ # STEP 35
+
+ You will be redirecting this page.
+
+ <img width="1090" height="545" alt="image" src="https://github.com/user-attachments/assets/3c0fa50c-da94-4269-b0d1-4daf5482d1c4" />
+
+ # STEP 36
+
+ Go to the forwarding and receiving. 
+
+ <img width="1090" height="451" alt="image" src="https://github.com/user-attachments/assets/9db1af09-3673-4f10-b046-3c87f747263e" />
+
+ # STEP 37
+
+ Configure this → click on configure receiving.
+
+ <img width="1090" height="237" alt="image" src="https://github.com/user-attachments/assets/83483df0-fa62-4214-9de3-7e15d85528cd" />
+<img width="1090" height="363" alt="image" src="https://github.com/user-attachments/assets/96f26f69-0b43-48a6-84c6-c0b1e6050e30" />
+
+ # STEP 38
+
+ Add new receiving port. 
+
+ <img width="1090" height="289" alt="image" src="https://github.com/user-attachments/assets/97769309-e977-4e54-8e88-3ff2fff71783" />
+
+ # STEP 39
+
+ Go to Home → Manage Apps  
+
+ <img width="1090" height="230" alt="image" src="https://github.com/user-attachments/assets/503320fc-fe10-42c9-b6e8-95e962671cd0" />
+
+ # STEP 40
+ 
+ Search for snort → Install Snort 
+
+ <img width="1090" height="358" alt="image" src="https://github.com/user-attachments/assets/14c22a8c-e712-4978-8dd7-1d3be5c8d762" />
+
+ # STEP 41
+
+ Login with Splunk username and password and install the snort. 
+
+ <img width="1090" height="503" alt="image" src="https://github.com/user-attachments/assets/db94e49a-c64d-4d4b-b7e6-a958a11b2b49" />
+ <img width="1090" height="243" alt="image" src="https://github.com/user-attachments/assets/fe2b5e4f-c316-418a-8896-0e442148ab0e" />
+
+ # STEP 42
+
+ Here you can see all the result 
+
+ <img width="1090" height="564" alt="image" src="https://github.com/user-attachments/assets/2c30c163-9f3e-40eb-b557-aa9d6f3a675d" />
+
+ You can also see → 
+1.	Top 10 Classifications  
+2.	Snort Event Types  
+3.	Sources and Signatures  
+4.	Last 100 events 
+
+<img width="1090" height="548" alt="image" src="https://github.com/user-attachments/assets/d0ef1c8f-d651-4b96-8592-e19c7bcf14c0" />
+
+If you want then you can generate report according to your requirement like this way. 
+
+<img width="1090" height="243" alt="image" src="https://github.com/user-attachments/assets/ea37efbe-4893-40fa-a81e-39f98cf73a68" />
+
+These are my Splunk report. 
+
+<img width="1090" height="626" alt="image" src="https://github.com/user-attachments/assets/196532a1-404f-484a-84cb-c2ead5333b6a" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
