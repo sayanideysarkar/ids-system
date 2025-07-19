@@ -101,10 +101,12 @@ visualize machine-generated data in real time.
 
 # SNORT SETUP AND CONFIGURATION
 # STEP 1
+
 In this process we are using ubuntu and installing snort. Before installing snort,
 we have to update this interface and install it using command in terminal.
 Sudo apt-get update → for update,
 Sudo apt-get install snort-y → for installing snort.
+
 <img width="1090" height="556" alt="image" src="https://github.com/user-attachments/assets/5ebb5fca-94e6-4832-9331-3cb0c8b99e45" />
 <img width="1090" height="484" alt="image" src="https://github.com/user-attachments/assets/733a31da-ce60-44a0-b6c1-82823c53a4da" />
 
