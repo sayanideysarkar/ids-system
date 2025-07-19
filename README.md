@@ -557,7 +557,7 @@ Now you need to configure the downloaded software → 1st Platform will be “Li
 
  <img width="1122" height="375" alt="image" src="https://github.com/user-attachments/assets/f6498ece-d11f-4711-b4b7-bcca35aefeeb" />
 
- STEP 24
+ # STEP 24
 
  For starting the scan → click on New Scan → you see this interface. 
  Choose one scanning method among these. 
@@ -583,7 +583,7 @@ Now you need to configure the downloaded software → 1st Platform will be “Li
 
  <img width="1122" height="244" alt="image" src="https://github.com/user-attachments/assets/5e58352b-6c01-4ce9-9b9c-6757fc934564" />
 
- #STEP 28
+ # STEP 28
  
  After the scan, you will see the result of the scan. 
 
