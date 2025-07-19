@@ -111,8 +111,8 @@ Sudo apt-get install snort-y → for installing snort.
 # STEP 2
 
 While installing snort it requires host machine Ip address. So, we find this IP address and past it in prompt. 
+
 <img width="1090" height="900" alt="image" src="https://github.com/user-attachments/assets/cb2c0e86-af02-4c68-a2ce-16f736a0ca8d" />
-<img width="1090" height="900" alt="image" src="https://github.com/user-attachments/assets/08f4945e-e5ec-410b-844b-84ef69a997a4" />
 
 # STEP 3
 
