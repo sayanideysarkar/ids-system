@@ -109,44 +109,60 @@ Sudo apt-get install snort-y → for installing snort.
 <img width="1090" height="484" alt="image" src="https://github.com/user-attachments/assets/733a31da-ce60-44a0-b6c1-82823c53a4da" />
 
 # STEP 2
+
 While installing snort it requires host machine Ip address. So, we find this IP address and past it in prompt. 
 <img width="1090" height="900" alt="image" src="https://github.com/user-attachments/assets/cb2c0e86-af02-4c68-a2ce-16f736a0ca8d" />
 <img width="1090" height="900" alt="image" src="https://github.com/user-attachments/assets/08f4945e-e5ec-410b-844b-84ef69a997a4" />
 
 # STEP 3
+
 Now we have to open the config file of snort using any editor. Here we using gedit. 
 The command is sudo gedit /etc/snort/snort.conf 
+
 <img width="1090" height="510" alt="image" src="https://github.com/user-attachments/assets/f237215e-66ec-42c2-81ac-583d551f10ab" />
 
 # STEP 4
+
 Here in this config file, we have to change HOME_NET to host ip address. 
+
 <img width="1090" height="370" alt="image" src="https://github.com/user-attachments/assets/e480d01b-03dc-47cf-a5cf-743f3cd0f604" />
 
 # STEP 5
+
 Save it and close the editor. 
 Now we have to make some rules in snort local rules file. Here if we make the rules then we can get proper tracking of trespassing activities. 
 The command is → sudo gedit /etc/snort/rules/local.rules 
 We can make various types of rules using online website such as snorpy. 
+
 <img width="1090" height="698" alt="image" src="https://github.com/user-attachments/assets/01b24d29-efcd-4ead-baa3-c28751158373" />
 
 # STEP 6
+
 Here are some rules and its application. 
 Icmp → alert icmp any any -> &HOME_NET any (msg:”ICMP Ping Detected”; sid : 10001; 
 rev:1;) 
 Tcp → alert tcp any any -> &HOME_NET  22 (msg:”SSH Authentication Attempt”; sid : 10001; rev:1;) 
+
 <img width="1090" height="723" alt="image" src="https://github.com/user-attachments/assets/b08d2ab4-77e9-4cce-864e-6221b29e572c" />
 
 # STEP 7
+
 Now we run this snort using a command. 
+
 <img width="1090" height="135" alt="image" src="https://github.com/user-attachments/assets/50bea7b8-1179-4fd3-bccd-4476f2257e2f" />
 
 # STEP 8
+
 After running this command if we try to access this host ip address from another device we can see the access log file. 
+
 <img width="1090" height="448" alt="image" src="https://github.com/user-attachments/assets/d5eacdda-1e5b-4a61-85e7-58fc342dd94a" />
 
 # STEP 9
+
 This is from another machine where we using ping command to check the host IP Address. 
+
 <img width="1090" height="390" alt="image" src="https://github.com/user-attachments/assets/d9462d37-e9a1-4136-ac50-62552b0f089c" />
+
 It is from host snort console where we can see the access log. 
 
 
