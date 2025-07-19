@@ -139,6 +139,235 @@ This is from another machine where we using ping command to check the host IP Ad
 
 It is from host snort console where we can see the access log. 
 
+# SPLUNK SETUP AND CONFIGURATION IN AWS CLOUD
+# STEP 1
+
+STEP 1: Sign in to the AWS Management Console → Go to:
+https://console.aws.amazon.com → After that you will be redirect this page.
+
+<img width="1090" height="502" alt="image" src="https://github.com/user-attachments/assets/e7c6b2a3-57e0-4e5c-92f7-b8bc5e02fae3" />
+
+# STEP 2
+
+ Navigate to the VPC Dashboard → You can search for "VPC" in the search bar at the top. 
+
+ <img width="1090" height="474" alt="image" src="https://github.com/user-attachments/assets/4b883445-72c6-443a-acdb-1e5cdad79ec8" />
+
+ # STEP 3
+
+ Open the VPC Creation Wizard → Click on "Create VPC" 
+
+ <img width="1090" height="351" alt="image" src="https://github.com/user-attachments/assets/edf9cc5e-9778-4c48-a91f-5be742d8bd98" />
+
+ # STEP 4
+
+  Choose "VPC only" (not "VPC and more") to avoid configuring subnets or other resources → Configure VPC Settings → Name tag →IPv4 CIDR block →  IPv6 CIDR block → Tenancy: 
+
+  <img width="1090" height="499" alt="image" src="https://github.com/user-attachments/assets/bbbe52c7-f623-4219-9c72-6588cb454686" />
+
+ # STEP 5
+
+ Click Create VPC → AWS will take a few seconds to create the VPC → You'll see a success message with the new VPC ID. 
+
+ <img width="1090" height="201" alt="image" src="https://github.com/user-attachments/assets/d71839f8-5d8f-4ad8-ab07-f460bd9a1b5d" />
+
+ # STEP 6
+
+ You'll see a success message with the new VPC ID.
+
+ <img width="1090" height="518" alt="image" src="https://github.com/user-attachments/assets/bcec1724-387c-46d4-a508-a651bab7afd4" />
+
+ # STEP 7
+
+ Verify VPC Creation → Return to the Your VPCs section in the VPC Dashboard → Confirm that your VPC is listed and shows the correct CIDR block. 
+
+ <img width="1090" height="518" alt="image" src="https://github.com/user-attachments/assets/ba624dbc-2baf-4350-9ce6-5a055005a834" />
+
+ # STEP 8
+
+ Navigate to the VPC Dashboard → Subnets → Click Create subnet. 
+
+ <img width="1090" height="231" alt="image" src="https://github.com/user-attachments/assets/72e1b648-98d0-4f8a-bbf8-49e724ab33e0" />
+
+ # STEP 9
+
+ Choose your VPC: Select the VPC you just created. 
+
+ <img width="1090" height="501" alt="image" src="https://github.com/user-attachments/assets/540d427c-8c10-41c1-8d56-9afc2210a62c" />
+
+ # STEP 10
+
+ Subnet settings → Name tag → Availability Zone → IPv4 CIDR block (Optional) →  Add more subnets for different AZs or purposes (e.g., private/public).
+
+ <img width="1090" height="518" alt="image" src="https://github.com/user-attachments/assets/b32a440f-afa2-4bc9-8b72-bd4eaeaac654" />
+
+ # STEP 11
+
+ <img width="1090" height="226" alt="image" src="https://github.com/user-attachments/assets/12309bdd-399e-4d86-9f88-405496cd82bd" />
+
+ # STEP 12
+
+ You can see subnet is successfully created.
+
+ <img width="1090" height="544" alt="image" src="https://github.com/user-attachments/assets/93127ea1-1bd6-4517-8281-125755755a0d" />
+
+ # STEP 13
+
+ Now you need to Launch Instance. 
+
+ <img width="1090" height="480" alt="image" src="https://github.com/user-attachments/assets/629110cf-a93a-4841-b109-0c760ee9ec7a" />
+
+ # STEP 14
+
+ Configuration you Instance. 
+
+ <img width="1090" height="501" alt="image" src="https://github.com/user-attachments/assets/d5bf022e-20a3-4ffc-ac39-339881c8577d" />
+
+ # STEP 15
+
+ Create new key pair  
+
+ <img width="1090" height="424" alt="image" src="https://github.com/user-attachments/assets/579fadff-038b-49de-b7c1-13552a36b5c8" />
+
+ # STEP 16
+
+  After creating key pair, complete rest of the configuration like network settings, Rules, Storage etc. 
+
+  <img width="1090" height="448" alt="image" src="https://github.com/user-attachments/assets/43d6c98a-f90f-4936-adde-e39068fa38d5" />
+  <img width="1090" height="514" alt="image" src="https://github.com/user-attachments/assets/523dd130-72ed-424e-abc5-0e0a9de662df" />
+  <img width="1090" height="415" alt="image" src="https://github.com/user-attachments/assets/d661553c-b430-4450-9138-e9ef08cab110" />
+  <img width="1090" height="475" alt="image" src="https://github.com/user-attachments/assets/33dad48d-d01b-4e16-be8c-f52144e61b15" />
+
+ # STEP 17
+
+ Click on Launch Instance. After creating Instance → Click on Instance → Networking → manage IP Address.
+
+ <img width="1090" height="480" alt="image" src="https://github.com/user-attachments/assets/c152ebc4-2257-4882-a11b-69c4aaef3ab0" />
+
+ # STEP 18
+
+ To assign a persistent public IPv4 address → Click the blue underlined text that says "allocate Elastic IP addresses". This will likely open a new tab or window where you can allocate an Elastic IP address in your AWS account. 
+
+ <img width="1090" height="339" alt="image" src="https://github.com/user-attachments/assets/742356ff-02f1-4083-98e0-84e625b1e5db" />
+
+ # STEP 19
+
+ You can see the page now. 
+
+ <img width="1090" height="413" alt="image" src="https://github.com/user-attachments/assets/566fc03c-3db9-4479-b19f-a2b41becbada" />
+
+ # STEP 20
+
+ Choose the Public IPv4 address pool → Choose the Network border group → Add tags → Allocate the Elastic IP address → click the Allocate button in the bottom right corner of the page. 
+
+ <img width="1090" height="475" alt="image" src="https://github.com/user-attachments/assets/9183eee6-dea5-4ba6-88a0-98835cf31916" />
+
+ # STEP 21
+ 
+ You can see Elastic IP allocated successfully. 
+
+ <img width="1090" height="454" alt="image" src="https://github.com/user-attachments/assets/417ccc93-bcc8-414d-a680-3f2289203220" />
+
+ # STEP 22
+
+ After clicking Allocate, AWS will provision a new Elastic IP address for your account in the selected region. You will then need to associate this Elastic IP address with your EC2 instance's network interface. 
+
+ <img width="1090" height="613" alt="image" src="https://github.com/user-attachments/assets/28b09aa9-b3a5-4f1f-ab2e-79ac521f1952" />
+
+ # STEP 23
+
+ Based on the "Instances" page and the details shown for the selected instance. 
+
+ <img width="1090" height="613" alt="image" src="https://github.com/user-attachments/assets/c1faa224-d4fc-44da-bdca-95923829dc1d" />
+
+ # STEP 24
+
+ To connect to the instance → Select the instance by checking the box next to its name ("Splunk Server"). → Click on Connect → This will provide you with different options to connect to your instance (e.g., using EC2 Instance Connect, Session Manager, or SSH). 
+Follow the instructions provided for your chosen method. 
+
+<img width="1090" height="521" alt="image" src="https://github.com/user-attachments/assets/ceaf8a1d-382c-402f-99ce-42a9666b88a4" />
+
+# STEP 25
+
+Here you can see the instance is launched. 
+
+<img width="1090" height="481" alt="image" src="https://github.com/user-attachments/assets/88850cc2-ea0d-40b5-930a-acfbb1d83381" />
+
+# STEP 26
+
+For installation of Splunk → Go to the Splunk website → Create account. 
+
+<img width="1090" height="456" alt="image" src="https://github.com/user-attachments/assets/db31ba9b-c8da-4793-a13c-67324e0a6160" />
+
+# STEP 27
+
+Downloaded Splunk Enterprise Package: You need to download the appropriate .rpm (for Red Hat, CentOS, Fedora), .deb (for Debian, Ubuntu), 
+
+<img width="1090" height="587" alt="image" src="https://github.com/user-attachments/assets/6ad57587-ffe4-48f0-bd19-c879f261c914" />
+
+# STEP 28
+
+Now run this command after copy the download link. 
+
+<img width="1090" height="474" alt="image" src="https://github.com/user-attachments/assets/84d72c12-64e6-4aa6-91eb-382d82cf9ee0" />
+
+# STEP 29
+
+NoW depackage the file by these commands. 
+
+<img width="1090" height="314" alt="image" src="https://github.com/user-attachments/assets/dffe005b-9085-4244-8067-eb2bf14fdbdc" />
+
+# STEP 30
+
+Start the splunk. 
+
+<img width="1090" height="480" alt="image" src="https://github.com/user-attachments/assets/04c68405-59a7-4f27-af0c-66c4eba0b5b4" />
+
+# STEP 31
+
+Accept the license.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
 
 
 
