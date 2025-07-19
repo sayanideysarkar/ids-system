@@ -7,7 +7,6 @@ system vulnerabilities. We require a robust cybersecurity system to defend again
 cyberattacks and intrusions.
 
 # Intrusion Detection Systems (IDS): A Foundation in Cybersecurity
-# INTRUSION DETECTION SYSTEM
 An Intrusion Detection System (IDS) is a cybersecurity solution designed to monitor
 network or system activities for malicious actions, policy violations, or abnormal
 behaviour. It is a foundational component of any security architecture aimed at
