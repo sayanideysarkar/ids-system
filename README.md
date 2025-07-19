@@ -98,8 +98,10 @@ visualize machine-generated data in real time.
 # 4.2 System Architecture:  
 <img width="1090" height="415" alt="image" src="https://github.com/user-attachments/assets/19def4de-1847-48ed-b8b8-e4828834e247" />
  <img width="1090" height="453" alt="image" src="https://github.com/user-attachments/assets/cf7daedd-9fe9-41e8-9b0c-3f8e791f89a1" />
+
 # SNORT SETUP AND CONFIGURATION
-STEP 1: In this process we are using ubuntu and installing snort. Before installing snort,
+# STEP 1
+In this process we are using ubuntu and installing snort. Before installing snort,
 we have to update this interface and install it using command in terminal.
 Sudo apt-get update → for update
 Sudo apt-get install snort-y → for installing snort.
