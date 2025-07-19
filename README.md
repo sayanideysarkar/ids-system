@@ -64,7 +64,6 @@ Nessus is one of the most widely used vulnerability assessment tools in cybersec
 Developed by Tenable, Inc., it helps organizations identify and fix security
 vulnerabilities in their IT infrastructure before they can be exploited.
 # Splunk: Illuminating Insights through Data Analytics:
-# Introduction to Splunk:
 Splunk is a powerful log management and data analysis platform used widely in
 cybersecurity, IT operations, and DevOps. It helps collect, index, search, analyze, and
 visualize machine-generated data in real time.
